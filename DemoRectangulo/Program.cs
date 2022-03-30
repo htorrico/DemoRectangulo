@@ -18,15 +18,17 @@ namespace DemoRectangulo
             persona.Apellidos = "Torrico";
             
 
+            
 
             string nombresCompletos;
             nombresCompletos = persona.DevolverNombresCompletos();
 
 
             Console.WriteLine(nombresCompletos);
-            
 
+            Console.ReadLine();
             Console.Read();
+           
 
         }
     }
